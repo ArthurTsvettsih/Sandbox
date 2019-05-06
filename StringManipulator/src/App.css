@@ -1,0 +1,63 @@
+html,
+body,
+#root {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+  background-color: #36393F;
+}
+
+textarea {
+  width: 100%;
+  height: 100%;
+  resize: none;
+}
+
+.app-container {
+  padding: 2em 2em 0 2em;
+}
+
+.main-container {
+  display: flex;
+  justify-content: center;
+}
+
+.main-container > section {
+  height: 100px;
+}
+
+.main-container > section > section {
+  flex-grow: 1;
+  height: 100px;
+  margin-bottom: 1em;
+}
+
+.main-content-area {
+  margin-right: 1em;
+}
+
+.input-output-area {
+  height: 20%;
+}
+
+#main-content-area {
+  background-color: violet;
+  flex-grow: 3;
+}
+
+#history-area {
+  background-color: yellow;
+  flex-grow: 1;
+}
+
+#input-area {
+  background-color: green;
+}
+
+#output-area {
+  background-color: red;
+}
+
+#button-area {
+  background-color: cyan;
+}

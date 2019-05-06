@@ -4,7 +4,7 @@ import StringManipulator from './components/stringManipulator'
 
 function App() {
   return (
-    <div className="App">
+    <div className="app-container">
       <StringManipulator />
     </div>
   );
