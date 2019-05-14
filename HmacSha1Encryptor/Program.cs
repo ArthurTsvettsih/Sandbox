@@ -11,7 +11,7 @@ namespace HmacSha1Encryptor
             WriteLine("Please provide the the string to encrypt:", false);
             var input = Console.ReadLine();
 
-            WriteLine("Please provide the key:", true);
+            WriteLine("Please provide the base64 key:", true);
             var key = Console.ReadLine();
 
             var output = Encrypt(input, key);
